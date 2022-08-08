@@ -9,13 +9,15 @@
 <body>
     <table border="1" width="40%">
         <?php
-        do{}
-        ?> 
+        $num = 1;
+            do{
+        ?>
         <tr>
-            <td width ="20%">&nbsp;></td>
-            <td width ="20%">&nbsp;></td>
+            <td width ="20%">&nbsp;</td>
+            <td width ="20%">&nbsp;</td>
         </tr> 
-        <?php $linhas++; } ?>
+        <?php $num++ ; } while($num < 8); ?>
     </table> 
+
 </body>
 </html>
